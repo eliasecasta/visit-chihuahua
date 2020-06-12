@@ -169,6 +169,17 @@ nav {
   margin-bottom: 5px;
 }
 
+/* Gray Footer  */
+
+.gray-footer {
+  background-color: #1f1f1f;
+}
+
+.gray-left,
+.gray-right {
+  color: darkgray;
+}
+
 @media only screen and (min-width: 768px) {
   .extra-left {
     width: 60%;
