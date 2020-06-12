@@ -2,6 +2,7 @@
 
 The goal of this project was to learn about responsive media queries and to apply them to create 3 different web views [The Next Web](https://thenextweb.com/) site.
 
+<<<<<<< HEAD
 Mobile view:
 
 ![screenshot](./assets/images/sssmall.png)
@@ -21,12 +22,32 @@ Desktop view:
 ## Demo Link
 
 [Live Demo Link](https://e71az.github.io/visit-chihuahua/).
+=======
+Small view:
+
+![screenshot](./assets/images/sssmall.png)
+
+Medium view:
+
+![screenshot](./assets/images/ssmid.png)
+
+Big view:
+
+![screenshot](./assets/images/ssbig.png)
+
+## Demo Link
+
+[Live Demo Link](https://raw.githack.com/e71az/thenextweb/development/index.html).
+>>>>>>> gh-pages
 
 ## Built With
 
 - HTML5
 - CSS3
+<<<<<<< HEAD
 - Bootstrap 4
+=======
+>>>>>>> gh-pages
 
 ## Authors
 
@@ -36,6 +57,15 @@ Desktop view:
 - Twitter: [@e71az](https://twitter.com/e71az)
 - Linkedin: [linkedin](https://www.linkedin.com/in/elias-casta%C3%B1eda-17a771115/)
 
+<<<<<<< HEAD
+=======
+👤 **Esteban**
+
+- Github: [@epinczinger](https://github.com/epinczinger)
+- Twitter: [@epinczinger](https://twitter.com/epinczinger)
+- Linkedin: [linkedin](https://www.linkedin.com/in/esteban-pinczinger-busai-ab49a254/?originalSubdomain=ar)
+
+>>>>>>> gh-pages
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
