@@ -126,9 +126,47 @@ nav {
 
 /* Footer  */
 
+.black-footer {
+  background-color: black;
+}
+
 .footer-menu {
   color: white;
   word-wrap: normal;
+  border-top: 1px solid #474747;
+  border-bottom: 1px solid #474747;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.footer-menu li {
+  margin-right: 5%;
+}
+
+.sub-cont-ab h5,
+.sub-cont-ab p {
+  color: white;
+}
+
+.sub-cont-ab a {
+  color: tomato;
+}
+
+.sub-elements {
+  width: 100%;
+}
+
+.element-1 input {
+  background-color: black;
+  color: white;
+  border: 1px solid #474747;
+}
+
+.element-1 .btn-dark {
+  margin-left: -5px;
+  border-radius: 0;
+  padding: 1px 30px 1px 30px;
+  margin-bottom: 5px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -142,5 +180,23 @@ nav {
 
   .extra-section-3 .extra-3 {
     margin-left: -30px;
+  }
+
+  .sub-elements {
+    width: 50%;
+  }
+
+  .element-1 input {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .sub-elements {
+    width: 20%;
+  }
+
+  .element-1 input {
+    width: 60%;
   }
 }
