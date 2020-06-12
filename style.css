@@ -1,0 +1,8 @@
+:root {
+  --custom-orange: #d35649;
+}
+
+nav {
+  color: white;
+  background-color: var(--custom-orange);
+}
