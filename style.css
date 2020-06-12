@@ -200,6 +200,10 @@ nav {
   .element-1 input {
     width: 50%;
   }
+
+  .img-and-search ul {
+    width: 70%;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -208,6 +212,10 @@ nav {
   }
 
   .element-1 input {
+    width: 60%;
+  }
+
+  .img-and-search ul {
     width: 60%;
   }
 }
