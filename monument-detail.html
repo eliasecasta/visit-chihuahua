@@ -7,19 +7,23 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+
     <link
       href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="style.css" />
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <script
       src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
       data-auto-replace-svg="nest"
     ></script>
-    <title>Search Results</title>
+
+    <title>Monument Detail</title>
   </head>
   <body>
     <main class="container-fluid">
@@ -45,76 +49,8 @@
           </div>
         </nav>
 
-        <section class="col-12 search-bar text-center my-5 py-5">
-          <h3 class="mb-4">
-            Filter by monument name, country, state, or city:
-          </h3>
-          <div
-            class="search-terms-container d-xl-flex justify-content-xl-center"
-          >
-            <div class="my-4 my-xl-0 px-xl-3">
-              <h5 for="monumentName">MONUMENT NAME:*</h5>
-              <input
-                type="search"
-                class="form-control"
-                name="search"
-                id="monumentName"
-                placeholder="Enter monument name"
-              />
-            </div>
-            <div class="px-xl-3">
-              <h5 for="country">COUNTRY:</h5>
-              <select class="form-control" id="country">
-                <option></option>
-                <option>Mexico</option>
-              </select>
-            </div>
-            <div class="my-4 my-xl-0 px-xl-3">
-              <h5>STATE:</h5>
-              <select class="form-control" id="country">
-                <option></option>
-                <option>Chihuahua</option>
-              </select>
-            </div>
-            <div class="mb-4 px-xl-3">
-              <h5>CITY:</h5>
-              <select class="form-control" id="country">
-                <option></option>
-                <option>Chihuahua</option>
-                <option>Cuauhtemoc</option>
-                <option>Delicias</option>
-                <option>Aldama</option>
-                <option>Juarez</option>
-              </select>
-            </div>
-            <div class="search-clear-buttons px-xl-3 mt-xl-4 pt-xl-2">
-              <button type="button" class="btn btn-primary mr-2">Search</button>
-              <button type="button" class="btn btn-warning ml-2">
-                <i class="fas fa-eraser"></i> Clear filter
-              </button>
-            </div>
-          </div>
-        </section>
-
-        <section class="col-12 text-center pt-1 pb-5">
-          <h5 class="mb-4">Search results found 3 monument(s).</h5>
-          <div class="monument-result">
-            <a href="monument-detail.html">
-              <img
-                class="mb-3"
-                src="images/catedral-chihuahua.jfif"
-                alt="Catedral de Chihuahua"
-            /></a>
-            <a href="monument-detail.html">
-              <img
-                class="mb-3 mx-lg-2"
-                src="images/quinta-gameros.jpg"
-                alt="Quinta Gameros"
-            /></a>
-            <a href="monument-detail.html">
-              <img src="images/museo-revolucion.jpg" alt=""
-            /></a>
-          </div>
+        <section class="col-12 bg-info border mt-5 mb-1">
+          <h5><i class="fas fa-thumbtack"></i> CHIHUAHUA'S CATEDRAL</h5>
         </section>
 
         <footer class="col-12 black-footer py-4">
