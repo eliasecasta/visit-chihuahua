@@ -180,6 +180,26 @@ nav {
   color: darkgray;
 }
 
+/* Search-Results page  */
+
+.search-bar {
+  background-color: #eee;
+}
+
+.form-control {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.search-clear-buttons button {
+  color: white;
+}
+
+/* .monument-result {
+  display: inline-block;
+  overflow: hidden;
+} */
+
 @media only screen and (min-width: 768px) {
   .extra-left {
     width: 60%;
@@ -204,6 +224,20 @@ nav {
   .img-and-search ul {
     width: 70%;
   }
+
+  /* Search Results  */
+
+  .form-control {
+    width: 30%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .monument-result img {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -217,5 +251,14 @@ nav {
 
   .img-and-search ul {
     width: 60%;
+  }
+
+  .monument-result img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .form-control {
+    width: 100%;
   }
 }
