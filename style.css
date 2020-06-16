@@ -1,10 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+
 :root {
   --custom-orange: #d35649;
+  --lora-serif: "Nanum Gothic", sans-serif;
 }
 
 a {
   text-decoration: none;
   color: unset;
+}
+
+h5,
+p,
+h4,
+h3,
+a {
+  font-family: var(--lora-serif);
 }
 
 a:hover {
@@ -39,6 +50,7 @@ nav {
 
 .img-and-search h5 {
   color: white;
+  font-weight: 800;
 }
 
 .search-container {
@@ -130,6 +142,14 @@ nav {
   background-color: black;
 }
 
+.black-footer a,
+.black-footer h5,
+.black-footer p,
+.gray-footer p {
+  font-weight: 500;
+  font-size: medium;
+}
+
 .footer-menu {
   color: white;
   word-wrap: normal;
@@ -143,9 +163,12 @@ nav {
   margin-right: 5%;
 }
 
-.sub-cont-ab h5,
-.sub-cont-ab p {
+.sub-cont-ab h5 {
   color: white;
+}
+
+.sub-cont-ab p {
+  color: gray;
 }
 
 .sub-cont-ab a {
@@ -203,7 +226,7 @@ nav {
 
 .monument-details h5 {
   color: var(--custom-orange);
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .monument-details .btn-info {
@@ -221,11 +244,11 @@ nav {
 
 .grid-container span {
   color: #509bd7;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .more-details p {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .more-details-info {
