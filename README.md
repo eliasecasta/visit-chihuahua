@@ -10,6 +10,10 @@ All views:
 
 [Live Demo Link](https://e71az.github.io/visit-chihuahua/).
 
+## Video Explanation
+
+[Demo Video](https://www.loom.com/share/702445d251ae4adda99b6f4bfb16d46d).
+
 ## Design Idea
 
 [Mathew Njuguna and others on Behance](https://www.behance.net/mathewnjuguna).
