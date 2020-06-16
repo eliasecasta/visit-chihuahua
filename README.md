@@ -1,10 +1,6 @@
 # Visit Chihuahua
 
-<<<<<<< HEAD
 The goal of this project was to apply all the previous knowledge learned like the box model, flexboxes, grids, media queries and bootstrap while also being provided a real webpage requirement by a fictional client, we receive the general model of how the client wants it and its our work to turn it into reality with our own twist/thematic applied to it. In my case I decided to create a monument finder in my state (Chihuahua, Mexico) so people can search for a certain monument and reserve a personal tour in no time. [Visit Chihuahua](https://e71az.github.io/visit-chihuahua/)
-=======
-The goal of this project was to apply all the previous knowledge learned like the box model, flex boxes, grids, media queries and bootstrap while also being provided a real webpage requirement by a fictional client, we receive the general model of how the client wants it and its our work to turn it into reality with our own twist/thematic applied to it. In my case I decided to create a monument finder in my state (Chihuahua, Mexico) so people can search for a certain monument and reserve a personal tour in no time. [Visit Chihuahua](https://e71az.github.io/visit-chihuahua/)
->>>>>>> gh-pages
 
 All views:
 
