@@ -14,7 +14,8 @@ h5,
 p,
 h4,
 h3,
-a {
+a,
+h1 {
   font-family: var(--lora-serif);
 }
 
@@ -44,9 +45,10 @@ nav {
   height: 86vh;
 }
 
-.img-and-search h5 {
+.img-and-search h1 {
   color: white;
-  font-weight: 800;
+  font-weight: 700;
+  font-size: large;
 }
 
 .search-container {
@@ -257,6 +259,10 @@ iframe {
 }
 
 @media only screen and (min-width: 768px) {
+  .img-and-search h1 {
+    font-size: larger;
+  }
+
   .extra-left {
     width: 60%;
   }
@@ -296,6 +302,10 @@ iframe {
 }
 
 @media only screen and (min-width: 1024px) {
+  .img-and-search h1 {
+    font-size: xx-large;
+  }
+
   .monument-result {
     display: flex;
     justify-content: center;
