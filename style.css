@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+
+:root {
+  --custom-orange: #d35649;
+  --lora-serif: "Nanum Gothic", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+h5,
+p,
+h4,
+h3,
+a,
+h1 {
+  font-family: var(--lora-serif);
+}
+
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  color: white;
+  background-color: var(--custom-orange);
+}
+
+.img-and-search {
+  background: url(images/grutas.jpg) center no-repeat;
+  background-size: cover;
+  height: 86vh;
+}
+
+.img-and-search h1 {
+  color: white;
+  font-weight: 700;
+  font-size: large;
+}
+
+.search-container {
+  background-color: rgba(219, 219, 219, 0.6);
+  border-radius: 7px;
+}
+
+.search-container input,
+.search-container a {
+  width: 100%;
+}
+
+.search-container input {
+  height: 37px;
+}
+
+.search-container .btn-danger {
+  background-color: var(--custom-orange);
+}
+
+.search-button-wrapper input {
+  border: 0;
+}
+
+.steps i {
+  font-size: 2em;
+}
+
+.steps-title h5 {
+  color: var(--custom-orange);
+  font-weight: 700;
+}
+
+.steps-subtitle {
+  font-weight: 700;
+}
+
+.extra-section-1 {
+  background-color: #e17f65;
+}
+
+.search-clear-buttons button {
+  color: white;
+}
+
+.extra-section-2 {
+  background-color: #99a4a5;
+}
+
+.extra-section-3 {
+  background-color: #509bd7;
+}
+
+.extra-left {
+  width: 100%;
+}
+
+.extra-left h5,
+.extra-left p {
+  color: white;
+}
+
+.extra-left button {
+  color: var(--custom-orange);
+  background-color: white;
+}
+
+.circular-img {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular-img img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+.extra-section-2 .extra-left button {
+  color: gray;
+}
+
+.extra-section-3 .extra-right img {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  height: 230px;
+  width: auto;
+}
+
+.black-footer {
+  background-color: black;
+}
+
+.black-footer a,
+.black-footer h5,
+.black-footer p,
+.gray-footer p {
+  font-weight: 500;
+  font-size: medium;
+}
+
+.footer-menu {
+  color: white;
+  word-wrap: normal;
+  border-top: 1px solid #474747;
+  border-bottom: 1px solid #474747;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.footer-menu li {
+  margin-right: 5%;
+}
+
+.sub-cont-ab h5 {
+  color: white;
+}
+
+.sub-cont-ab p {
+  color: gray;
+}
+
+.sub-cont-ab a {
+  color: tomato;
+}
+
+.sub-elements {
+  width: 100%;
+}
+
+.element-1 input {
+  background-color: black;
+  color: white;
+  border: 1px solid #474747;
+}
+
+.element-1 .btn-dark {
+  margin-left: -5px;
+  border-radius: 0;
+  padding: 1px 30px 1px 30px;
+  margin-bottom: 5px;
+}
+
+.gray-footer {
+  background-color: #1f1f1f;
+}
+
+.gray-left,
+.gray-right {
+  color: darkgray;
+}
+
+.search-bar {
+  background-color: #eee;
+}
+
+.search-bar h1 {
+  font-size: 1.8em;
+}
+
+.form-control {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.monument-details {
+  box-shadow: 0 -1px 5px 2px lightgray;
+}
+
+.monument-details h1 {
+  color: var(--custom-orange);
+  font-weight: 700;
+}
+
+.monument-details .btn-info {
+  background-color: #509bd7;
+}
+
+.details-left,
+.details-right {
+  width: 80%;
+}
+
+.grid-container p {
+  border: 1px solid lightgray;
+}
+
+.grid-container span {
+  color: #509bd7;
+  font-weight: 700;
+}
+
+.more-details p {
+  font-weight: 700;
+}
+
+.more-details-info {
+  background-color: #f5f5f5;
+}
+
+.map-directions {
+  color: orangered;
+}
+
+.info-list i {
+  color: #509bd7;
+}
+
+.info-list span {
+  color: #92b472;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+}
+
+@media only screen and (min-width: 768px) {
+  .img-and-search h1 {
+    font-size: larger;
+  }
+
+  .search-container a {
+    width: 30%;
+  }
+
+  .search-container .btn-danger {
+    background-color: #519bd7;
+    border-color: darkcyan;
+  }
+
+  .extra-left {
+    width: 60%;
+  }
+
+  .extra-section-3 .extra-right img {
+    margin-left: -50px;
+  }
+
+  .extra-section-3 .extra-3 {
+    margin-left: -30px;
+  }
+
+  .sub-elements {
+    width: 50%;
+  }
+
+  .element-1 input {
+    width: 50%;
+  }
+
+  .img-and-search ul {
+    width: 70%;
+  }
+
+  .form-control {
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  .details-left {
+    width: 49%;
+  }
+
+  .details-right {
+    width: 49%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .img-and-search h1 {
+    font-size: xx-large;
+  }
+
+  .search-container .btn-danger {
+    background-color: var(--custom-orange);
+  }
+
+  .monument-result {
+    display: flex;
+    justify-content: center;
+  }
+
+  .monument-result img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .sub-elements {
+    width: 20%;
+  }
+
+  .element-1 input {
+    width: 60%;
+  }
+
+  .img-and-search ul {
+    width: 60%;
+  }
+
+  .monument-result img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+}
