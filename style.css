@@ -61,8 +61,16 @@ nav {
   width: 100%;
 }
 
+.search-container input {
+  height: 37px;
+}
+
 .search-container .btn-danger {
   background-color: var(--custom-orange);
+}
+
+.search-button-wrapper input {
+  border: 0;
 }
 
 .steps i {
@@ -267,6 +275,15 @@ iframe {
     font-size: larger;
   }
 
+  .search-container a {
+    width: 30%;
+  }
+
+  .search-container .btn-danger {
+    background-color: #519bd7;
+    border-color: darkcyan;
+  }
+
   .extra-left {
     width: 60%;
   }
@@ -308,6 +325,10 @@ iframe {
 @media only screen and (min-width: 1024px) {
   .img-and-search h1 {
     font-size: xx-large;
+  }
+
+  .search-container .btn-danger {
+    background-color: var(--custom-orange);
   }
 
   .monument-result {
