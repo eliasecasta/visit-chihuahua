@@ -10,6 +10,14 @@ a {
   color: unset;
 }
 
+h5,
+p,
+h4,
+h3,
+a {
+  font-family: var(--lora-serif);
+}
+
 a:hover {
   text-decoration: none;
   color: unset;
@@ -25,22 +33,10 @@ img {
   width: 100%;
 }
 
-h5,
-p,
-h4,
-h3,
-a {
-  font-family: var(--lora-serif);
-}
-
-/* Navbar */
-
 nav {
   color: white;
   background-color: var(--custom-orange);
 }
-
-/* Image and Search section  */
 
 .img-and-search {
   background: url(images/grutas.jpg) center no-repeat;
@@ -67,8 +63,6 @@ nav {
   background-color: var(--custom-orange);
 }
 
-/* Steps Section  */
-
 .steps i {
   font-size: 2em;
 }
@@ -81,8 +75,6 @@ nav {
 .steps-subtitle {
   font-weight: 700;
 }
-
-/* Extra Information  */
 
 .extra-section-1 {
   background-color: #e17f65;
@@ -140,8 +132,6 @@ nav {
   width: auto;
 }
 
-/* Footer  */
-
 .black-footer {
   background-color: black;
 }
@@ -196,8 +186,6 @@ nav {
   margin-bottom: 5px;
 }
 
-/* Gray Footer  */
-
 .gray-footer {
   background-color: #1f1f1f;
 }
@@ -207,8 +195,6 @@ nav {
   color: darkgray;
 }
 
-/* Search-Results page  */
-
 .search-bar {
   background-color: #eee;
 }
@@ -217,8 +203,6 @@ nav {
   width: 60%;
   margin: 0 auto;
 }
-
-/* Monument Detail  */
 
 .monument-details {
   box-shadow: 0 -1px 5px 2px lightgray;
@@ -297,14 +281,10 @@ iframe {
     width: 70%;
   }
 
-  /* Search Results  */
-
   .form-control {
     width: 30%;
     margin: 0 auto;
   }
-
-  /* Monument Detail  */
 
   .details-left {
     width: 49%;
