@@ -10,14 +10,6 @@ a {
   color: unset;
 }
 
-h5,
-p,
-h4,
-h3,
-a {
-  font-family: var(--lora-serif);
-}
-
 a:hover {
   text-decoration: none;
   color: unset;
@@ -31,6 +23,14 @@ ul {
 
 img {
   width: 100%;
+}
+
+h5,
+p,
+h4,
+h3,
+a {
+  font-family: var(--lora-serif);
 }
 
 /* Navbar */
@@ -59,7 +59,7 @@ nav {
 }
 
 .search-container input,
-.search-container button {
+.search-container a {
   width: 100%;
 }
 
@@ -86,6 +86,10 @@ nav {
 
 .extra-section-1 {
   background-color: #e17f65;
+}
+
+.search-clear-buttons button {
+  color: white;
 }
 
 .extra-section-2 {
@@ -212,10 +216,6 @@ nav {
 .form-control {
   width: 60%;
   margin: 0 auto;
-}
-
-.search-clear-buttons button {
-  color: white;
 }
 
 /* Monument Detail  */
